@@ -35,8 +35,7 @@
              self.facade.queue.autoAdvance = YES;
              [self.facade setVideos:playlist];
              
-             [self.facade advanceToNext];
-             [self.facade play];
+             [self.facade advanceToNextAndPlay];
          }
      }];
     
