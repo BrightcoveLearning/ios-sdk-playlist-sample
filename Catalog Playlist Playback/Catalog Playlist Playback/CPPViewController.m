@@ -19,7 +19,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.catalog = [[BCOVCatalogService alloc] initWithToken:@"nFCuXstvl910WWpPnCeFlDTNrpXA5mXOO9GPkuTCoLKRyYpPF1ikig.."];
+    // the following line is the basic way to access the catalog for non-Japanese accounts, not using a proxy
+    // self.catalog = [[BCOVCatalogService alloc] initWithToken:@"nFCuXstvl910WWpPnCeFlDTNrpXA5mXOO9GPkuTCoLKRyYpPF1ikig.."];
+    
+    // the following lines use the media request factory - you must use this method for Japanese accounts
+    // or if you make the calls via a proxy
+    // note that for accounts in Japan, the baseURLString will be "http://api.brightcove.co.jp/services/library"
+    
+    self.mediaRequestFactory = [[BCOVMediaRequestFactory alloc] initWithToken:@"nFCuXstvl910WWpPnCeFlDTNrpXA5mXOO9GPkuTCoLKRyYpPF1ikig.." baseURLString:@"http://api.brightcove.com/services/library"];
+    
+    self.catalog = [[BCOVCatalogService alloc] initWithMediaRequestFactory:self.mediaRequestFactory];
     
     self.facade = [[BCOVPlayerSDKManager sharedManager] newPlaybackFacadeWithFrame:self.view.frame];
     [self.view addSubview:[self.facade view]];

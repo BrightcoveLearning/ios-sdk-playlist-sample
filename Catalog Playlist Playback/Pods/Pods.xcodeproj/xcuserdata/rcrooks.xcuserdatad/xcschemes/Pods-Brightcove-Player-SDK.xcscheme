@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A8ECD932ECDC435EA981282C"
+               BlueprintIdentifier = "FC30F84DED58437CBDACEE11"
                BuildableName = "libPods-Brightcove-Player-SDK.a"
                BlueprintName = "Pods-Brightcove-Player-SDK"
                ReferencedContainer = "container:Pods.xcodeproj">
