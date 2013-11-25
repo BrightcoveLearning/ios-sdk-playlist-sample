@@ -322,6 +322,10 @@ For example, the following code:
             self.loggedIn = YES;
         }];
     }];
+
+    RAC(self, loggedIn) = [[NSNotificationCenter.defaultCenter
+        rac_addObserverForName:UserDidLogOutNotification object:nil]
+        mapReplace:@NO];
 }
 ```
 
@@ -419,7 +423,7 @@ RACSignal *fileSignal = [RACSignal startEagerlyWithScheduler:[RACScheduler sched
 
 [[RACSignal
     combineLatest:@[ databaseSignal, fileSignal ]
-    reduce:^(NSArray *databaseObjects, NSArray *fileContents) {
+    reduce:^ id (NSArray *databaseObjects, NSArray *fileContents) {
         [self finishProcessingDatabaseObjects:databaseObjects fileContents:fileContents];
         return nil;
     }]

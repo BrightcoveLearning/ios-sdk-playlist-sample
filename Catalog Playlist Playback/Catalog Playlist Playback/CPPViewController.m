@@ -30,7 +30,7 @@
     
     self.catalog = [[BCOVCatalogService alloc] initWithMediaRequestFactory:self.mediaRequestFactory];
     
-    self.facade = [[BCOVPlayerSDKManager sharedManager] newPlaybackFacadeWithFrame:self.view.frame];
+    self.facade = [[BCOVPlayerSDKManager sharedManager] createPlaybackFacadeWithFrame:self.view.frame];
     [self.view addSubview:[self.facade view]];
     
     //This is how you playback videos from a playlist
