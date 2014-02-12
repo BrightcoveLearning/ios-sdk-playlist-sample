@@ -30,8 +30,9 @@
     
     self.catalog = [[BCOVCatalogService alloc] initWithMediaRequestFactory:self.mediaRequestFactory];
     
-    self.facade = [[BCOVPlayerSDKManager sharedManager] createPlaybackFacadeWithFrame:self.view.frame];
-    [self.view addSubview:[self.facade view]];
+    self.controller = [[BCOVPlayerSDKManager sharedManager] createPlaybackControllerWithViewStrategy:nil];
+    self.controller.view.frame = self.view.bounds;
+    [self.view addSubview:self.controller.view];
     
     //This is how you playback videos from a playlist
     @weakify(self);
@@ -40,15 +41,15 @@
      completion:^(BCOVPlaylist *playlist, NSDictionary *jsonResponse, NSError *error) {
          
          @strongify(self);
-         if(!error){
-             self.facade.queue.autoAdvance = YES;
-             [self.facade setVideos:playlist];
+         if(playlist){
+             self.controller.autoAdvance = YES;
+             [self.controller setVideos:playlist];
              
-             [self.facade advanceToNextAndPlay];
+             [self.controller play];
          }
      }];
     
-    NSLog(@"%@", [[self.catalog requestFactory] defaultVideoFields]);
+    NSLog(@"%@", self.catalog.requestFactory.defaultVideoFields);
     
     //The above line will output
     
@@ -70,27 +71,26 @@
      */
     
     // To ask for additional information - you can pass information to parameters
-    NSArray *default_fields = [[self.catalog requestFactory] defaultVideoFields];
-    NSArray *fields = [default_fields arrayByAddingObject:@"tags"];
+    NSArray *fields = [self.catalog.requestFactory.defaultVideoFields arrayByAddingObject:@"tags"];
     
-    NSDictionary *video_fields = @{@"video_fields": [fields componentsJoinedByString:@","]};
+    NSDictionary *videoFields = @{@"video_fields": [fields componentsJoinedByString:@","]};
     
-    [self.catalog findVideoWithReferenceID:@"lucy" parameters:video_fields completion:^(BCOVVideo *video, NSDictionary *jsonResponse, NSError *error) {
-        if(!error){
+    [self.catalog findVideoWithReferenceID:@"lucy" parameters:videoFields completion:^(BCOVVideo *video, NSDictionary *jsonResponse, NSError *error) {
+        if(video){
             
             //Getting properties from the video, these keys can be found in BCOVCatalogConstants.h
-            NSLog(@"Name: %@", [video.properties objectForKey:kBCOVCatalogJSONKeyName]);
-            NSLog(@"Description: %@", [video.properties objectForKey:kBCOVCatalogJSONKeyShortDescription]);
+            NSLog(@"Name: %@", video.properties[kBCOVCatalogJSONKeyName]);
+            NSLog(@"Description: %@", video.properties[kBCOVCatalogJSONKeyShortDescription]);
             
             //Custom field:
-            NSLog(@"Tags: %@", [video.properties objectForKey:@"tags"]);
+            NSLog(@"Tags: %@", video.properties[@"tags"]);
             
             //Sources from the video can be accessed by the following:
-            [[video sources] enumerateObjectsUsingBlock:^(BCOVSource *source, NSUInteger idx, BOOL *stop) {
-                NSLog(@"Source %i, Delivery Method: %@ URL: %@", idx, [source deliveryMethod], [source url]);
+            [video.sources enumerateObjectsUsingBlock:^(BCOVSource *source, NSUInteger idx, BOOL *stop) {
+                NSLog(@"Source %i, Delivery Method: %@ URL: %@", idx, source.deliveryMethod, source.url);
                 
                 //There are other values of importance that are stored in source properties
-                NSLog(@"Source %i, Properties %@", idx, [source properties]);
+                NSLog(@"Source %i, Properties %@", idx, source.properties);
             }];
         }
     }];
