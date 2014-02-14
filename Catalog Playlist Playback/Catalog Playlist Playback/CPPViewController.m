@@ -30,7 +30,7 @@
     
     self.catalog = [[BCOVCatalogService alloc] initWithMediaRequestFactory:self.mediaRequestFactory];
     
-    self.controller = [[BCOVPlayerSDKManager sharedManager] createPlaybackControllerWithViewStrategy:nil];
+    self.controller = [[BCOVPlayerSDKManager sharedManager] createPlaybackControllerWithViewStrategy:[self viewStrategy]];
     self.controller.view.frame = self.view.bounds;
     [self.view addSubview:self.controller.view];
     
@@ -97,5 +97,11 @@
     
 }
 
+- (id)viewStrategy
+{
+    // Most apps can create a playback controller with a `nil` view strategy,
+    // but for the purposes of this demo we use the stock controls.
+    return [[BCOVPlayerSDKManager sharedManager] defaultControlsViewStrategy];
+}
 
 @end
