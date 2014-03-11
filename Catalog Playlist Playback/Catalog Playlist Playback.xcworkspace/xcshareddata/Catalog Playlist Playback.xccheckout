@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9976C2BE-9645-440E-B106-D88BDA2EBB97</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Catalog Playlist Playback</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DC5377A7-EB16-4C13-A166-A72CF9AF2403</key>
+		<string>https://github.com/BrightcoveLearning/ios-sdk-playlist-sample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Catalog Playlist Playback/Catalog Playlist Playback.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DC5377A7-EB16-4C13-A166-A72CF9AF2403</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BrightcoveLearning/ios-sdk-playlist-sample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DC5377A7-EB16-4C13-A166-A72CF9AF2403</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DC5377A7-EB16-4C13-A166-A72CF9AF2403</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-sdk-playlist-sample</string>
+		</dict>
+	</array>
+</dict>
+</plist>
