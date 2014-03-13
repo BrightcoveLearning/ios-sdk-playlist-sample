@@ -1,1127 +1,545 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0BAE5238A91C407B8036E433</key>
-		<dict>
-			<key>fileRef</key>
-			<string>725A4A417B46449896BD9EC7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5F630AD98BB949179AA273B2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>62ECECCE18060104005D2F60</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>62ECECE018060104005D2F60</string>
-				<string>62ECED0218060104005D2F60</string>
-				<string>62ECECD918060104005D2F60</string>
-				<string>62ECECD818060104005D2F60</string>
-				<string>DFFB906E59FF41A683C5B434</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECCF18060104005D2F60</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>CPP</string>
-				<key>LastUpgradeCheck</key>
-				<string>0500</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Brightcove</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>62ECECFA18060104005D2F60</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>62ECECD618060104005D2F60</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>62ECECD218060104005D2F60</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>62ECECCE18060104005D2F60</string>
-			<key>productRefGroup</key>
-			<string>62ECECD818060104005D2F60</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>62ECECD618060104005D2F60</string>
-				<string>62ECECFA18060104005D2F60</string>
-			</array>
-		</dict>
-		<key>62ECECD218060104005D2F60</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>62ECED0A18060104005D2F60</string>
-				<string>62ECED0B18060104005D2F60</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>62ECECD318060104005D2F60</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>62ECECF418060104005D2F60</string>
-				<string>62ECECEB18060104005D2F60</string>
-				<string>62ECECE718060104005D2F60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>62ECECD418060104005D2F60</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>62ECECDD18060104005D2F60</string>
-				<string>62ECECDF18060104005D2F60</string>
-				<string>62ECECDB18060104005D2F60</string>
-				<string>0BAE5238A91C407B8036E433</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>62ECECD518060104005D2F60</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>62ECECF118060104005D2F60</string>
-				<string>62ECECF618060104005D2F60</string>
-				<string>62ECECEE18060104005D2F60</string>
-				<string>62ECECE518060104005D2F60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>62ECECD618060104005D2F60</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>62ECED0C18060104005D2F60</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E2BB3D1A5B1941DDB3726824</string>
-				<string>62ECECD318060104005D2F60</string>
-				<string>62ECECD418060104005D2F60</string>
-				<string>62ECECD518060104005D2F60</string>
-				<string>5F630AD98BB949179AA273B2</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Catalog Playlist Playback</string>
-			<key>productName</key>
-			<string>Catalog Playlist Playback</string>
-			<key>productReference</key>
-			<string>62ECECD718060104005D2F60</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>62ECECD718060104005D2F60</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Catalog Playlist Playback.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>62ECECD818060104005D2F60</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>62ECECD718060104005D2F60</string>
-				<string>62ECECFB18060104005D2F60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECD918060104005D2F60</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>62ECECDA18060104005D2F60</string>
-				<string>62ECECDC18060104005D2F60</string>
-				<string>62ECECDE18060104005D2F60</string>
-				<string>62ECECFC18060104005D2F60</string>
-				<string>725A4A417B46449896BD9EC7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECDA18060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>62ECECDB18060104005D2F60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62ECECDA18060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62ECECDC18060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>62ECECDD18060104005D2F60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62ECECDC18060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62ECECDE18060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>62ECECDF18060104005D2F60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62ECECDE18060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62ECECE018060104005D2F60</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>62ECECE918060104005D2F60</string>
-				<string>62ECECEA18060104005D2F60</string>
-				<string>62ECECEC18060104005D2F60</string>
-				<string>62ECECEF18060104005D2F60</string>
-				<string>62ECECF218060104005D2F60</string>
-				<string>62ECECF318060104005D2F60</string>
-				<string>62ECECF518060104005D2F60</string>
-				<string>62ECECE118060104005D2F60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Catalog Playlist Playback</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECE118060104005D2F60</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>62ECECE218060104005D2F60</string>
-				<string>62ECECE318060104005D2F60</string>
-				<string>62ECECE618060104005D2F60</string>
-				<string>62ECECE818060104005D2F60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECE218060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Catalog Playlist Playback-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECE318060104005D2F60</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>62ECECE418060104005D2F60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECE418060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECE518060104005D2F60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62ECECE318060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62ECECE618060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECE718060104005D2F60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62ECECE618060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62ECECE818060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Catalog Playlist Playback-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECE918060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CPPAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECEA18060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CPPAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECEB18060104005D2F60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62ECECEA18060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62ECECEC18060104005D2F60</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>62ECECED18060104005D2F60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main_iPhone.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECED18060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main_iPhone.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECEE18060104005D2F60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62ECECEC18060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62ECECEF18060104005D2F60</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>62ECECF018060104005D2F60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main_iPad.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECF018060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main_iPad.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECF118060104005D2F60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62ECECEF18060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62ECECF218060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>CPPViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECF318060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CPPViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECF418060104005D2F60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62ECECF318060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62ECECF518060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECECF618060104005D2F60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62ECECF518060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62ECECF718060104005D2F60</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>62ECED0918060104005D2F60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>62ECECF818060104005D2F60</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>62ECECFD18060104005D2F60</string>
-				<string>62ECECFF18060104005D2F60</string>
-				<string>62ECECFE18060104005D2F60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>62ECECF918060104005D2F60</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>62ECED0718060104005D2F60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>62ECECFA18060104005D2F60</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>62ECED0F18060104005D2F60</string>
-			<key>buildPhases</key>
-			<array>
-				<string>62ECECF718060104005D2F60</string>
-				<string>62ECECF818060104005D2F60</string>
-				<string>62ECECF918060104005D2F60</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>62ECED0118060104005D2F60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Catalog Playlist PlaybackTests</string>
-			<key>productName</key>
-			<string>Catalog Playlist PlaybackTests</string>
-			<key>productReference</key>
-			<string>62ECECFB18060104005D2F60</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>62ECECFB18060104005D2F60</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Catalog Playlist PlaybackTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>62ECECFC18060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>62ECECFD18060104005D2F60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62ECECFC18060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62ECECFE18060104005D2F60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62ECECDA18060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62ECECFF18060104005D2F60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62ECECDE18060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62ECED0018060104005D2F60</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>62ECECCF18060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>62ECECD618060104005D2F60</string>
-			<key>remoteInfo</key>
-			<string>Catalog Playlist Playback</string>
-		</dict>
-		<key>62ECED0118060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>62ECECD618060104005D2F60</string>
-			<key>targetProxy</key>
-			<string>62ECED0018060104005D2F60</string>
-		</dict>
-		<key>62ECED0218060104005D2F60</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>62ECED0818060104005D2F60</string>
-				<string>62ECED0318060104005D2F60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Catalog Playlist PlaybackTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECED0318060104005D2F60</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>62ECED0418060104005D2F60</string>
-				<string>62ECED0518060104005D2F60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECED0418060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Catalog Playlist PlaybackTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECED0518060104005D2F60</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>62ECED0618060104005D2F60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECED0618060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECED0718060104005D2F60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62ECED0518060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62ECED0818060104005D2F60</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Catalog_Playlist_PlaybackTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62ECED0918060104005D2F60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>62ECED0818060104005D2F60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>62ECED0A18060104005D2F60</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>62ECED0B18060104005D2F60</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>62ECED0C18060104005D2F60</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>62ECED0D18060104005D2F60</string>
-				<string>62ECED0E18060104005D2F60</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>62ECED0D18060104005D2F60</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DFFB906E59FF41A683C5B434</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Catalog Playlist Playback/Catalog Playlist Playback-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Catalog Playlist Playback/Catalog Playlist Playback-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>62ECED0E18060104005D2F60</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DFFB906E59FF41A683C5B434</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Catalog Playlist Playback/Catalog Playlist Playback-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Catalog Playlist Playback/Catalog Playlist Playback-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>62ECED0F18060104005D2F60</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>62ECED1018060104005D2F60</string>
-				<string>62ECED1118060104005D2F60</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>62ECED1018060104005D2F60</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Catalog Playlist Playback.app/Catalog Playlist Playback</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Catalog Playlist Playback/Catalog Playlist Playback-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>Catalog Playlist PlaybackTests/Catalog Playlist PlaybackTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>62ECED1118060104005D2F60</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Catalog Playlist Playback.app/Catalog Playlist Playback</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Catalog Playlist Playback/Catalog Playlist Playback-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Catalog Playlist PlaybackTests/Catalog Playlist PlaybackTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>725A4A417B46449896BD9EC7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>DFFB906E59FF41A683C5B434</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2BB3D1A5B1941DDB3726824</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>62ECECCF18060104005D2F60</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BAE5238A91C407B8036E433 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 725A4A417B46449896BD9EC7 /* libPods.a */; };
+		62ECECDB18060104005D2F60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ECECDA18060104005D2F60 /* Foundation.framework */; };
+		62ECECDD18060104005D2F60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ECECDC18060104005D2F60 /* CoreGraphics.framework */; };
+		62ECECDF18060104005D2F60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ECECDE18060104005D2F60 /* UIKit.framework */; };
+		62ECECE518060104005D2F60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62ECECE318060104005D2F60 /* InfoPlist.strings */; };
+		62ECECE718060104005D2F60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECECE618060104005D2F60 /* main.m */; };
+		62ECECEB18060104005D2F60 /* CPPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECECEA18060104005D2F60 /* CPPAppDelegate.m */; };
+		62ECECEE18060104005D2F60 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62ECECEC18060104005D2F60 /* Main_iPhone.storyboard */; };
+		62ECECF118060104005D2F60 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62ECECEF18060104005D2F60 /* Main_iPad.storyboard */; };
+		62ECECF418060104005D2F60 /* CPPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECECF318060104005D2F60 /* CPPViewController.m */; };
+		62ECECF618060104005D2F60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62ECECF518060104005D2F60 /* Images.xcassets */; };
+		62ECECFD18060104005D2F60 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ECECFC18060104005D2F60 /* XCTest.framework */; };
+		62ECECFE18060104005D2F60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ECECDA18060104005D2F60 /* Foundation.framework */; };
+		62ECECFF18060104005D2F60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ECECDE18060104005D2F60 /* UIKit.framework */; };
+		62ECED0718060104005D2F60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62ECED0518060104005D2F60 /* InfoPlist.strings */; };
+		62ECED0918060104005D2F60 /* Catalog_Playlist_PlaybackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62ECED0818060104005D2F60 /* Catalog_Playlist_PlaybackTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62ECED0018060104005D2F60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62ECECCF18060104005D2F60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62ECECD618060104005D2F60;
+			remoteInfo = "Catalog Playlist Playback";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62ECECD718060104005D2F60 /* Catalog Playlist Playback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catalog Playlist Playback.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62ECECDA18060104005D2F60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62ECECDC18060104005D2F60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62ECECDE18060104005D2F60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62ECECE218060104005D2F60 /* Catalog Playlist Playback-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Catalog Playlist Playback-Info.plist"; sourceTree = "<group>"; };
+		62ECECE418060104005D2F60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62ECECE618060104005D2F60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62ECECE818060104005D2F60 /* Catalog Playlist Playback-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Catalog Playlist Playback-Prefix.pch"; sourceTree = "<group>"; };
+		62ECECE918060104005D2F60 /* CPPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPPAppDelegate.h; sourceTree = "<group>"; };
+		62ECECEA18060104005D2F60 /* CPPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPPAppDelegate.m; sourceTree = "<group>"; };
+		62ECECED18060104005D2F60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		62ECECF018060104005D2F60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		62ECECF218060104005D2F60 /* CPPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPPViewController.h; sourceTree = "<group>"; };
+		62ECECF318060104005D2F60 /* CPPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPPViewController.m; sourceTree = "<group>"; };
+		62ECECF518060104005D2F60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		62ECECFB18060104005D2F60 /* Catalog Playlist PlaybackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Catalog Playlist PlaybackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62ECECFC18060104005D2F60 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		62ECED0418060104005D2F60 /* Catalog Playlist PlaybackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Catalog Playlist PlaybackTests-Info.plist"; sourceTree = "<group>"; };
+		62ECED0618060104005D2F60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62ECED0818060104005D2F60 /* Catalog_Playlist_PlaybackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Catalog_Playlist_PlaybackTests.m; sourceTree = "<group>"; };
+		725A4A417B46449896BD9EC7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFB906E59FF41A683C5B434 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62ECECD418060104005D2F60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ECECDD18060104005D2F60 /* CoreGraphics.framework in Frameworks */,
+				62ECECDF18060104005D2F60 /* UIKit.framework in Frameworks */,
+				62ECECDB18060104005D2F60 /* Foundation.framework in Frameworks */,
+				0BAE5238A91C407B8036E433 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62ECECF818060104005D2F60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ECECFD18060104005D2F60 /* XCTest.framework in Frameworks */,
+				62ECECFF18060104005D2F60 /* UIKit.framework in Frameworks */,
+				62ECECFE18060104005D2F60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62ECECCE18060104005D2F60 = {
+			isa = PBXGroup;
+			children = (
+				62ECECE018060104005D2F60 /* Catalog Playlist Playback */,
+				62ECED0218060104005D2F60 /* Catalog Playlist PlaybackTests */,
+				62ECECD918060104005D2F60 /* Frameworks */,
+				62ECECD818060104005D2F60 /* Products */,
+				DFFB906E59FF41A683C5B434 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		62ECECD818060104005D2F60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62ECECD718060104005D2F60 /* Catalog Playlist Playback.app */,
+				62ECECFB18060104005D2F60 /* Catalog Playlist PlaybackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62ECECD918060104005D2F60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62ECECDA18060104005D2F60 /* Foundation.framework */,
+				62ECECDC18060104005D2F60 /* CoreGraphics.framework */,
+				62ECECDE18060104005D2F60 /* UIKit.framework */,
+				62ECECFC18060104005D2F60 /* XCTest.framework */,
+				725A4A417B46449896BD9EC7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62ECECE018060104005D2F60 /* Catalog Playlist Playback */ = {
+			isa = PBXGroup;
+			children = (
+				62ECECE918060104005D2F60 /* CPPAppDelegate.h */,
+				62ECECEA18060104005D2F60 /* CPPAppDelegate.m */,
+				62ECECEC18060104005D2F60 /* Main_iPhone.storyboard */,
+				62ECECEF18060104005D2F60 /* Main_iPad.storyboard */,
+				62ECECF218060104005D2F60 /* CPPViewController.h */,
+				62ECECF318060104005D2F60 /* CPPViewController.m */,
+				62ECECF518060104005D2F60 /* Images.xcassets */,
+				62ECECE118060104005D2F60 /* Supporting Files */,
+			);
+			path = "Catalog Playlist Playback";
+			sourceTree = "<group>";
+		};
+		62ECECE118060104005D2F60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62ECECE218060104005D2F60 /* Catalog Playlist Playback-Info.plist */,
+				62ECECE318060104005D2F60 /* InfoPlist.strings */,
+				62ECECE618060104005D2F60 /* main.m */,
+				62ECECE818060104005D2F60 /* Catalog Playlist Playback-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62ECED0218060104005D2F60 /* Catalog Playlist PlaybackTests */ = {
+			isa = PBXGroup;
+			children = (
+				62ECED0818060104005D2F60 /* Catalog_Playlist_PlaybackTests.m */,
+				62ECED0318060104005D2F60 /* Supporting Files */,
+			);
+			path = "Catalog Playlist PlaybackTests";
+			sourceTree = "<group>";
+		};
+		62ECED0318060104005D2F60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62ECED0418060104005D2F60 /* Catalog Playlist PlaybackTests-Info.plist */,
+				62ECED0518060104005D2F60 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62ECECD618060104005D2F60 /* Catalog Playlist Playback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62ECED0C18060104005D2F60 /* Build configuration list for PBXNativeTarget "Catalog Playlist Playback" */;
+			buildPhases = (
+				E2BB3D1A5B1941DDB3726824 /* Check Pods Manifest.lock */,
+				62ECECD318060104005D2F60 /* Sources */,
+				62ECECD418060104005D2F60 /* Frameworks */,
+				62ECECD518060104005D2F60 /* Resources */,
+				5F630AD98BB949179AA273B2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Catalog Playlist Playback";
+			productName = "Catalog Playlist Playback";
+			productReference = 62ECECD718060104005D2F60 /* Catalog Playlist Playback.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62ECECFA18060104005D2F60 /* Catalog Playlist PlaybackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62ECED0F18060104005D2F60 /* Build configuration list for PBXNativeTarget "Catalog Playlist PlaybackTests" */;
+			buildPhases = (
+				62ECECF718060104005D2F60 /* Sources */,
+				62ECECF818060104005D2F60 /* Frameworks */,
+				62ECECF918060104005D2F60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62ECED0118060104005D2F60 /* PBXTargetDependency */,
+			);
+			name = "Catalog Playlist PlaybackTests";
+			productName = "Catalog Playlist PlaybackTests";
+			productReference = 62ECECFB18060104005D2F60 /* Catalog Playlist PlaybackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62ECECCF18060104005D2F60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CPP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Brightcove;
+				TargetAttributes = {
+					62ECECFA18060104005D2F60 = {
+						TestTargetID = 62ECECD618060104005D2F60;
+					};
+				};
+			};
+			buildConfigurationList = 62ECECD218060104005D2F60 /* Build configuration list for PBXProject "Catalog Playlist Playback" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62ECECCE18060104005D2F60;
+			productRefGroup = 62ECECD818060104005D2F60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62ECECD618060104005D2F60 /* Catalog Playlist Playback */,
+				62ECECFA18060104005D2F60 /* Catalog Playlist PlaybackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62ECECD518060104005D2F60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ECECF118060104005D2F60 /* Main_iPad.storyboard in Resources */,
+				62ECECF618060104005D2F60 /* Images.xcassets in Resources */,
+				62ECECEE18060104005D2F60 /* Main_iPhone.storyboard in Resources */,
+				62ECECE518060104005D2F60 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62ECECF918060104005D2F60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ECED0718060104005D2F60 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F630AD98BB949179AA273B2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2BB3D1A5B1941DDB3726824 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62ECECD318060104005D2F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ECECF418060104005D2F60 /* CPPViewController.m in Sources */,
+				62ECECEB18060104005D2F60 /* CPPAppDelegate.m in Sources */,
+				62ECECE718060104005D2F60 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62ECECF718060104005D2F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62ECED0918060104005D2F60 /* Catalog_Playlist_PlaybackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62ECED0118060104005D2F60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62ECECD618060104005D2F60 /* Catalog Playlist Playback */;
+			targetProxy = 62ECED0018060104005D2F60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62ECECE318060104005D2F60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62ECECE418060104005D2F60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62ECECEC18060104005D2F60 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62ECECED18060104005D2F60 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		62ECECEF18060104005D2F60 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62ECECF018060104005D2F60 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		62ECED0518060104005D2F60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62ECED0618060104005D2F60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62ECED0A18060104005D2F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62ECED0B18060104005D2F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62ECED0D18060104005D2F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFFB906E59FF41A683C5B434 /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"armv7,",
+					armv7s,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catalog Playlist Playback/Catalog Playlist Playback-Prefix.pch";
+				INFOPLIST_FILE = "Catalog Playlist Playback/Catalog Playlist Playback-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62ECED0E18060104005D2F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFFB906E59FF41A683C5B434 /* Pods.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"armv7,",
+					armv7s,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catalog Playlist Playback/Catalog Playlist Playback-Prefix.pch";
+				INFOPLIST_FILE = "Catalog Playlist Playback/Catalog Playlist Playback-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		62ECED1018060104005D2F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Catalog Playlist Playback.app/Catalog Playlist Playback";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catalog Playlist Playback/Catalog Playlist Playback-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Catalog Playlist PlaybackTests/Catalog Playlist PlaybackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		62ECED1118060104005D2F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Catalog Playlist Playback.app/Catalog Playlist Playback";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catalog Playlist Playback/Catalog Playlist Playback-Prefix.pch";
+				INFOPLIST_FILE = "Catalog Playlist PlaybackTests/Catalog Playlist PlaybackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62ECECD218060104005D2F60 /* Build configuration list for PBXProject "Catalog Playlist Playback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62ECED0A18060104005D2F60 /* Debug */,
+				62ECED0B18060104005D2F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62ECED0C18060104005D2F60 /* Build configuration list for PBXNativeTarget "Catalog Playlist Playback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62ECED0D18060104005D2F60 /* Debug */,
+				62ECED0E18060104005D2F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62ECED0F18060104005D2F60 /* Build configuration list for PBXNativeTarget "Catalog Playlist PlaybackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62ECED1018060104005D2F60 /* Debug */,
+				62ECED1118060104005D2F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62ECECCF18060104005D2F60 /* Project object */;
+}
