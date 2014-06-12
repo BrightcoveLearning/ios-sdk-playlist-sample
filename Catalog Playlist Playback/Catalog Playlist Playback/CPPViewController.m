@@ -2,39 +2,32 @@
 //  CPPViewController.m
 //  Catalog Playlist Playback
 //
-//  Created by Robert Crooks on 10/9/13.
-//  Copyright (c) 2013 Brightcove. All rights reserved.
+//  Created by Jeff Doktor on 6/11/14.
+//  Copyright (c) 2014 Brightcove. All rights reserved.
 //
 
 #import "CPPViewController.h"
 
-// import the SDK master header
 #import "BCOVPlayerSDK.h"
-
-
 #import <ReactiveCocoa/RACEXTScope.h>
+
+@interface CPPViewController ()
+
+@end
 
 @implementation CPPViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // the following line is the basic way to access the catalog for non-Japanese accounts, not using a proxy
-    // self.catalog = [[BCOVCatalogService alloc] initWithToken:@"nFCuXstvl910WWpPnCeFlDTNrpXA5mXOO9GPkuTCoLKRyYpPF1ikig.."];
-    
-    // the following lines use the media request factory - you must use this method for Japanese accounts
-    // or if you make the calls via a proxy
-    // note that for accounts in Japan, the baseURLString will be "http://api.brightcove.co.jp/services/library"
-    
+	// Do any additional setup after loading the view, typically from a nib.
     self.mediaRequestFactory = [[BCOVMediaRequestFactory alloc] initWithToken:@"nFCuXstvl910WWpPnCeFlDTNrpXA5mXOO9GPkuTCoLKRyYpPF1ikig.." baseURLString:@"http://api.brightcove.com/services/library"];
-    
     self.catalog = [[BCOVCatalogService alloc] initWithMediaRequestFactory:self.mediaRequestFactory];
     
     self.controller = [[BCOVPlayerSDKManager sharedManager] createPlaybackControllerWithViewStrategy:[self viewStrategy]];
     self.controller.view.frame = self.view.bounds;
     [self.view addSubview:self.controller.view];
     
-    //This is how you playback videos from a playlist
     @weakify(self);
     [self.catalog
      findPlaylistWithPlaylistID:@"2149006311001" parameters:nil
@@ -94,7 +87,7 @@
             }];
         }
     }];
-    
+
 }
 
 - (id)viewStrategy

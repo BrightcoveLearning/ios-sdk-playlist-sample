@@ -2,8 +2,8 @@
 //  main.m
 //  Catalog Playlist Playback
 //
-//  Created by Robert Crooks on 10/9/13.
-//  Copyright (c) 2013 Brightcove. All rights reserved.
+//  Created by Jeff T Doktor on 6/11/14.
+//  Copyright (c) 2014 Brightcove. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
